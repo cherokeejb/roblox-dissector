@@ -5,6 +5,8 @@ Then fetch the repo and its dependencies: `go get -v github.com/gskartwii/roblox
 And compile: `%GOPATH%/bin/qtdeploy build %GOPATH%/src/github.com/gskartwii/roblox-dissector`  
 A directory named `deploy` should now exist in `$GOPATH/src/github/gskartwii/roblox-dissector`.
 
+When I first pulled this, I hadn't seen it was so dependant on Qt and was only for windows, (and why? vs. tools like tcpdump and tshark) so I am keeping it for backup purposes only here).
+
 If you want to capture Roblox Studio traffic on Windows, you must make it flow through your router. Steps:
 
 1. Run ipconfig to find your local IP address.
